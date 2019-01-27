@@ -1,0 +1,222 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+
+	font-family: 'Sarabun', sans-serif;
+	color:#34312d ;
+
+}
+.container {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	
+}
+nav {
+	float: right;
+}
+#showcase {
+	content: "";
+	height: 100vh;
+	width: 100%;
+	background-image: url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.resume {
+	text-align: center;
+	padding: 200px;
+	display: inline-block;
+	width: 100%;
+
+}
+ 
+ 
+
+
+#showcase ul {
+	margin: 0;
+	list-style: none;
+	float: right;
+	color: #34312d;
+	padding: 40px;
+}
+#showcase li {
+	display: inline;
+
+}
+#showcase a {
+	text-decoration-line: none;
+	display: inline;
+	color: #34312d;
+	padding: 20px;
+	font-size: 25px;
+}
+#showcase a:hover {
+	color: #E9967A;
+}
+[class*="col-"] {
+	float: left;
+	min-height: 1px;
+	box-sizing: border-box;
+	padding: 12px;
+}
+.row::before, .row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	position: relative;
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.66%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.33%;
+}
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
+}
+#portfolio {
+	text-align: center;
+}
+#about {
+	background-color: #d9c5b2;
+}
+h2, p {
+	text-align: center;
+	padding: 30px;
+}
+.icon  {
+	padding: 50px;
+	
+}
+#contact {
+	background-color: #696969;
+	color: white;
+}
+
+#contact i {
+	color: 	#E9967A;
+
+}
+#footer {
+	color:#fff;
+	background: #5f5c58;
+
+}
+@media (max-width:560px) {
+
+
+#showcase {
+	width: 100%;
+	height: 100%;
+	float:flex;
+}
+
+#showcase ul{
+display: block;
+width: 100%;
+}
+
+#showcase a {
+  display: block;	
+  color:green;
+  text-align: center; 
+  float: none;
+
+}
+
+
+.resume  {
+	float:none;
+	text-align: center;
+     width: 100%;
+	display: inline;
+}
+.button {
+	text-align: center;
+	color: red;
+}
+
+#about {
+ text-align: center;
+}
+#portfolio img {
+
+   width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+#contact{
+ text-align: center;
+}
+
+.col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+
+}
